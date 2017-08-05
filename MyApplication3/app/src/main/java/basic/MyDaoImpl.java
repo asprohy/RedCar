@@ -35,8 +35,7 @@ public class MyDaoImpl{
 				String channel = ret.getString(7);
 				Car car = new Car(group_id, car_id, hallCount, speed, distance, headingDgree, channel);
 				fleet.add(car);
-			}
-		} catch (SQLException e) {
+			}		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

@@ -40,8 +40,6 @@ public class Car {
         this.distance = distance;
         this.headingDgree = headingDgree;
         this.channel = channel;
-        this.direction = Hall.getDirection(group_id, hall_count, channel);
-        this.centerOfCarPoint = Hall.getPoint(group_id, hall_count, channel);
     }
 
 

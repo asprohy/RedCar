@@ -15,5 +15,4 @@ public class teamEntity {
         this.id = id;
     }
 
-
 }
