@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>TServer</display-name>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getAngle</servlet-name>
+    <servlet-class>com.servlet.getAngle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTeamNum</servlet-name>
+    <servlet-class>com.servlet.GetTeamNum</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getCarNum</servlet-name>
+    <servlet-class>com.servlet.getCarNum</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getDistance</servlet-name>
+    <servlet-class>com.servlet.getDistance</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getSpeed</servlet-name>
+    <servlet-class>com.servlet.getSpeed</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getText</servlet-name>
+    <servlet-class>com.servlet.getText</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>toStop</servlet-name>
+    <servlet-class>com.servlet.toStop</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>toSeperate</servlet-name>
+    <servlet-class>com.servlet.toSeperate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getDirect</servlet-name>
+    <servlet-class>com.servlet.getDirect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCoordinate</servlet-name>
+    <servlet-class>com.car.servlet.GetCoordinate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllCoordinate</servlet-name>
+    <servlet-class>com.car.servlet.GetAllCoordinate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllCarBend</servlet-name>
+    <servlet-class>com.car.servlet.GetAllCarBend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllHallCoordinate</servlet-name>
+    <servlet-class>com.car.servlet.GetAllHallCoordinate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTrafficInfo</servlet-name>
+    <servlet-class>com.car.servlet.GetTrafficInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStateInfo</servlet-name>
+    <servlet-class>com.car.servlet.GetStateInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarShunt</servlet-name>
+    <servlet-class>com.servlet.CarShunt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getPlan</servlet-name>
+    <servlet-class>com.servlet.getPlan</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getCarInfo</servlet-name>
+    <servlet-class>com.servlet.getCarInfo</servlet-class>
+    <!--  <load-on-startup>5</load-on-startup> --> 
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoadClearData</servlet-name>
+    <servlet-class>com.car.servlet.LoadClearData</servlet-class>
+   <!--  <load-on-startup>5</load-on-startup>  -->
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InitJudgeCongestion</servlet-name>
+    <servlet-class>com.car.servlet.InitJudgeCongestion</servlet-class>
+   <!--  <load-on-startup>5</load-on-startup> --> 
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InitCrossroadAvoid</servlet-name>
+    <servlet-class>com.car.servlet.InitCrossroadAvoid</servlet-class>
+   <!--  <load-on-startup>5</load-on-startup>--> 
+  </servlet>
+
+
+
+  
+ <!--   <listener>
+    <listener-class>com.Main.AvoidTimerListenter</listener-class>
+  </listener>
+  <listener>
+    <listener-class>com.Main.ClearDataTimerListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>com.Main.JudgeChannelTimerListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>com.Main.JudgeCongestionTimerListener</listener-class>
+  </listener>-->
+
+  
+  <servlet-mapping>
+    <servlet-name>getAngle</servlet-name>
+    <url-pattern>/getAngle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTeamNum</servlet-name>
+    <url-pattern>/GetTeamNum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getCarNum</servlet-name>
+    <url-pattern>/getCarNum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getDistance</servlet-name>
+    <url-pattern>/getDistance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getSpeed</servlet-name>
+    <url-pattern>/getSpeed</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getText</servlet-name>
+    <url-pattern>/getText</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>toStop</servlet-name>
+    <url-pattern>/toStop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>toSeperate</servlet-name>
+    <url-pattern>/toSeperate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getDirect</servlet-name>
+    <url-pattern>/getDirect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCoordinate</servlet-name>
+    <url-pattern>/GetCoordinate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllCoordinate</servlet-name>
+    <url-pattern>/GetAllCoordinate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllCarBend</servlet-name>
+    <url-pattern>/GetAllCarBend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllHallCoordinate</servlet-name>
+    <url-pattern>/GetAllHallCoordinate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTrafficInfo</servlet-name>
+    <url-pattern>/GetTrafficInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStateInfo</servlet-name>
+    <url-pattern>/GetStateInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarShunt</servlet-name>
+    <url-pattern>/CarShunt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getPlan</servlet-name>
+    <url-pattern>/getPlan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getCarInfo</servlet-name>
+    <url-pattern>/getCarInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadClearData</servlet-name>
+    <url-pattern>/servlet/LoadClearData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InitJudgeCongestion</servlet-name>
+    <url-pattern>/servlet/InitJudgeCongestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InitCrossroadAvoid</servlet-name>
+    <url-pattern>/servlet/InitCrossroadAvoid</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
